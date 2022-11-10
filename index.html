@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ryan Curran">
+    <title>Fishing Report</title>
+    <link rel="icon" type="image/x-icon" href="/images/shrimp.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        #main-div {
+            display: flex;
+            height: 650px;
+            justify-content: space-around;
+        }
 
+        img {
+            height: 640px;
+            margin: 10px;
+        }
+
+        pre {
+            font-size: 20px;
+            border-style: solid;
+            border-width: 2px;
+            padding: 5px;
+        }
+        
+        #left-div {
+            width: 800px;
+            margin: 10px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Nags Head Fishing Report</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div id="main-div">
+            <div id="left-div">
+                <pre>High Tide:   8:11am/8:29pm          Low Tide:   2:45pm</pre>
+                <h1>Thursday, November 10th, 2022</h1>
+                <p>
+                    Well Happy Thursday everyone. I have been out for a couple of days doing that stuff you put off all year long and for a good reason, I hate doing it. Well, we had a good stretch of good weather and as you know it's been windy and cool as of late and we have a storm coming. The fishing the last couple of days has been a little better we have seen some drum off the piers and some speckled and grey trout with mullet this morning. South of Oregon Inlet you will still get some big drum, bluefish, mullet, and a lot of sharks down toward the point. Trout fishing is still good to the inside but they have been scattered at times. We do have rough conditions out today and until the storm passes with a water temp of 62 today. For now, that's all the news we have as we near the end the yet another season.
+                </p>
+            </div>
+            <div>
+                <img src="/images/nags-head.png" alt="map of Nags Head and surrounding area">
+            </div>
+          </div>
+    </main>
+</body>
+</html>
