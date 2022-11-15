@@ -15,6 +15,32 @@
 
         #main {
             display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        img {
+            width: 200px;
+            height: 150px;
+            margin: 5px;
+        }
+
+        .node {
+            width: 400px;
+            border: solid;
+            margin: 30px;
+            display: flex;
+            height: 300px;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin: 5px;
+        }
+
+        .left {
+            margin-right: 10px;
         }
 
         
@@ -41,7 +67,7 @@
                     <a class="nav-link" href="https://ryan-curran.github.io/CS-343-Project-1/newsletter.html">Newsletter</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://ryan-curran.github.io/CS-343-Project-1/newsletter.html">Baits</a>
+                    <a class="nav-link" href="https://ryan-curran.github.io/CS-343-Project-1/baits.html">Baits</a>
                 </li>
                 </ul>
             </div>
@@ -49,18 +75,31 @@
 
         <div id="main">
             <div class="node">
-                <h1>Swimbait</h1>
-                <img src="https://github.com/Ryan-Curran/CS-343-Project-1/blob/main/images/swimbait.jpg?raw=true" alt="soft plastic fishing lure">
+                <div class="left">
+                    <h1>Swimbait</h1>
+                    <img src="https://github.com/Ryan-Curran/CS-343-Project-1/blob/main/images/swimbait.jpg?raw=true" alt="soft plastic fishing lure">
+                </div>
+                <div>
+                    <p>Swimbaits (soft plastics) require a jighead to use, and are the go to artifical lure for many anglers. Throw these out and let them sink for 2-3 seconds, then use a medium retrieval on the way in.</p>
+                </div>
             </div>
             <div class="node">
-                <h1>Spoon</h1>
-                <img src="https://github.com/Ryan-Curran/CS-343-Project-1/blob/main/images/spoon.jpg?raw=true" alt="gold spoon fishing lure">
- 
+                <div class="left">
+                    <h1>Spoon</h1>
+                    <img src="https://github.com/Ryan-Curran/CS-343-Project-1/blob/main/images/spoon.jpg?raw=true" alt="gold spoon fishing lure">
+                </div>
+                <div>
+                    <p>Spoons are great for catching drum. You'll want to avoid grassy areas as their treble hook easily picks up unecessary gunk. Throw them out and bring them in with a slow to medirum retrieval.</p>
+                </div>
             </div>
             <div class="node">
-                <h1>Live bait</h1>
-                <img src="https://github.com/Ryan-Curran/CS-343-Project-1/blob/main/images/croaker.jpg?raw=true" alt="croaker fish">
-
+                <div class="left">
+                    <h1>Live bait</h1>
+                    <img src="https://github.com/Ryan-Curran/CS-343-Project-1/blob/main/images/croaker.jpg?raw=true" alt="croaker fish">
+                </div>
+                <div>
+                    <p>If you're wondering whether to use live bait or artificials, live bait always wins. Hook up a croaker with a circle hook, sit back, and wait for a bite.</p>
+                </div>
             </div>
         </div>
     </main>
